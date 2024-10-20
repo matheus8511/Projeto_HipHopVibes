@@ -190,3 +190,84 @@ h1.card-title {
 .posta {
   margin-top: 30px;
 }
+
+
+
+.corespagina {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  color: black; /* Adiciona a cor preta ao texto */
+}
+
+.pagination.corespagina .page-link {
+  color: black; /* Definir a cor do texto para preto */
+}
+
+
+
+
+
+    .btn-custom {
+      background-color: #000; /* Fundo preto */
+      color: #fff;            /* Texto branco */
+      padding: 10px 20px;
+      border: 2px solid #000; /* Borda preta */
+      border-radius: 30px;    /* Borda arredondada */
+      font-size: 18px;
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-custom:hover {
+      background-color: #444; /* Cor ao passar o mouse */
+      border-color: #444;
+      color: #fff;
+  }
+  #voltarTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Para garantir que ele fique acima de outros elementos */
+}
+
+#subir {
+    display: inline-block;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 50px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave para o hover */
+}
+
+#subir:hover {
+    background-color: #f39c12; /* Cor de fundo ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+
+#voltarTopo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#subir {
+  border-radius: 50px; /* Bordas arredondadas */
+  background-color: #000; /* Cor de fundo preta */
+  color: #fff; /* Texto branco */
+  transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+#subir:hover {
+  background-color: #f39c12; /* Cor laranja ao passar o mouse */
+  color: #000; /* Texto preto no hover */
+}
